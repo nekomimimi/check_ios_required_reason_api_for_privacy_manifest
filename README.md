@@ -11,7 +11,7 @@ Open your terminal and execute the following commands to download and run the sc
 ```
 $ git clone https://github.com/nekomimimi/check_ios_required_reason_api_for_privacy_manifest.git
 $ cd check_ios_required_reason_api_for_privacy_manifest
-$ check_api.sh /path/to/your/ios/executable/in/ipa
+$ ./check_api.sh /path/to/your/ios/executable/in/ipa
 ```
 ## Viewing the Results
 Upon executing the script, results will be displayed as follows, for example:
