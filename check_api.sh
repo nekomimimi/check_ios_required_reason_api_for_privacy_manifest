@@ -21,7 +21,7 @@ fi
 echo
 echo '* File timestamp APIs'
 FILE_STAMP_API="NSFileCreationDate"
-FILE_STAMP_API="${FILE_STAMP_API}|NSURLContentModificationDateKey"
+FILE_STAMP_API="${FILE_STAMP_API}|NSFileModificationDate"
 FILE_STAMP_API="${FILE_STAMP_API}|fileModificationDate"
 FILE_STAMP_API="${FILE_STAMP_API}|NSURLContentModificationDateKey"
 FILE_STAMP_API="${FILE_STAMP_API}|NSURLCreationDateKey"
