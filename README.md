@@ -5,7 +5,7 @@ Check required reason API for Privacy manifest files on iOS
 On your terminal.
 ```
 $ git clone https://github.com/nekomimimi/check_ios_required_reason_api_for_privacy_manifest.git
-$ check_api.sh your_ios_exec_file_in_your_ipa_file_path
+$ check_api.sh your_ios_exec_file_path_in_your_ipa_file
 ```
 
 and then it will display the result.
