@@ -1,15 +1,20 @@
-# check_require_api_for_privacy_manifest_files_on_ios
-Check required reason API for Privacy manifest files on iOS
+# check_required_reason_api_for_privacy_manifest_files_on_ios
+Check required reason APIs for Privacy manifest files on iOS
 
 ## How to use
-On your terminal.
+This Bash script searches for required reason APIs within your app's binary file.
+### Step 1: Prepare Your App's Binary File
+First, ensure your app's binary file is included within an IPA file. An IPA file can get an archive of your application created through the archiving process in Xcode.
+
+## Step 2: Execute the Script
+Open your terminal and execute the following commands to download and run the script:
 ```
 $ git clone https://github.com/nekomimimi/check_ios_required_reason_api_for_privacy_manifest.git
-$ check_api.sh your_ios_exec_file_path_in_your_ipa_file
+$ cd check_ios_required_reason_api_for_privacy_manifest
+$ check_api.sh /path/to/your/ios/executable/in/ipa/file_name
 ```
-
-and then it will display the result.
-for exmple
+## Viewing the Results
+Upon executing the script, results will be displayed as follows, for example:
 
 ```
 * File timestamp APIs
@@ -26,4 +31,5 @@ for exmple
                  U _NSUserDefaultsDidChangeNotification
                  U _OBJC_CLASS_$_NSUserDefaults
 ```
+This output will help you verify the required reason APIs for your app's Privacy Manifest file.
 
