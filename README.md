@@ -4,7 +4,7 @@ Check required reason APIs for Privacy manifest files on iOS
 ## How to use
 This Bash script searches for required reason APIs within your app's binary file.
 ### Step 1: Prepare Your App's Binary File
-First, ensure your app's binary file is included within an IPA file. An IPA file can get an archive of your application created through the archiving process in Xcode.
+First, make sure your app's binary file is included within an IPA file.  You can create an IPA file from an archive of your application created through the archiving process in Xcode.
 
 ## Step 2: Execute the Script
 Open your terminal and execute the following commands to download and run the script:
